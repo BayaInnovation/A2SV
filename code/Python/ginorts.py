@@ -1,0 +1,1 @@
+print(*sorted(input(), key=lambda t: (t.isdigit() - t.islower(), t in '02468', t)), sep='')
